@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .text-shadow {
+    text-shadow: -6px 6px 10px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@layer utilities {
+  .img-shadow {
+    filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.4));
+  }
+}
+
